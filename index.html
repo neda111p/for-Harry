@@ -1,0 +1,55 @@
+<html>
+
+
+<!-- THIS IS THE MAIN CHAD PICTURE -->
+<img style="width: 500px;" src="https://cdn.discordapp.com/attachments/1016684079946678302/1016702040858165279/unknown.png" />
+<h2 style="color: pink;">
+    Welcome to my quiz
+</h2>
+
+
+<h3>
+    <!-- THIS IS THE QUESTION YOU ARE ASKING -->
+    What is my fav animal?
+</h3>
+
+
+
+<!-- THESE ARE THE POSSIBLE ANSWERS -->
+<input type="radio" name="possibe-answer" id="ans1" /> 🪰Fly <br />
+<input type="radio" name="possibe-answer" id="ans2" /> 🐊Crocodile <br />
+<input type="radio" name="possibe-answer" id="ans3" /> 🦌Deer <br />
+<input type="radio" name="possibe-answer" id="ans4" /> 🦠Corona Virus <br />
+
+<button onclick="showCode()"> submit </button><br />
+
+<img id="prize" />
+
+<style>
+    *{
+        font-size: 40;
+    }
+input[type="radio"] {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+  transform: scale(2);
+}
+</style>
+
+<script>
+    function showCode() {
+        // THIS IS WHERE YOU DECIDE WHAT THE ANSWER IS GOING TO BE
+        if (document.getElementById("ans3").checked) {
+            document.getElementById("prize").src = "https://media.discordapp.net/attachments/1016684079946678302/1016700869741395988/unknown.png?width=566&height=665"
+        } else {
+            document.getElementById("prize").src = "https://cdn.discordapp.com/attachments/1016684079946678302/1016701021419999323/unknown.png"
+        }
+    }
+
+</script
+
+    
+
+
+
+</html>
